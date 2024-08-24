@@ -9,8 +9,6 @@
     <version>0.0.1-SNAPSHOT</version>
   
     <dependencies>
-      
-
         <!-- Selenium WebDriver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -18,9 +16,6 @@
             <version>4.9.1</version>
         </dependency>
    
-        <!-- Chrome WebDriver -->
-       
-  
         <!-- Apache POI -->
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -80,11 +75,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>pom.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+                    <!-- Update this to the correct path if you are using TestNG XML suites -->
+                    <!-- <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles> -->
                     <systemPropertyVariables>
-                        <webdriver.chrome.driver>C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver-win64\\Chromedriver.exe</webdriver.chrome.driver>
+                        <webdriver.chrome.driver>C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver.exe</webdriver.chrome.driver>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
