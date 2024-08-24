@@ -2320,7 +2320,10 @@ import org.testng.annotations.Test;
 	                driver.switchTo().window(window);
 	                break;
 	            }
+	            
+	           
 	        }
+	        
 	    	 
 	    	String currentUrl = driver.getCurrentUrl();
 	        System.out.println("Current URL: " + currentUrl);
