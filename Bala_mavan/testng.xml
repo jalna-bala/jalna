@@ -3,7 +3,15 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="login.BrokenLinksTest_jain"/>
+      <class name="login.ResponsiveTest"/>
+      <class name="login.BrokenLinksTest_sharda"/>
+      <class name="Learning.SearchTest"/>
       <class name="USDC.SHARDA_ONLINE"/>
+      <class name="Learning.testgg"/>
+      <class name="login.ImagePresenceTest"/>
+      <class name="login.abc"/>
+      <class name="Learning.PriorityExample"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
