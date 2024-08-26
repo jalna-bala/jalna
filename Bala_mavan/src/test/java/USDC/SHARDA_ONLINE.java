@@ -2332,7 +2332,7 @@ import org.testng.annotations.Test;
 	        Assert.assertEquals(currentUrl, Expected_URL_of_Political_Science_Brochure);
 	    	
 	    	System.out.println("URL is correct");
-		      System.out.println("ending");
+		     
 	    	  driver.quit();
 		    } 
 	    
