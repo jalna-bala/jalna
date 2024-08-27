@@ -2335,5 +2335,10 @@ import org.testng.annotations.Test;
 		     
 	    	  driver.quit();
 		    } 
+		 @AfterClass
+	    public void tearDown() {
+	        // Code to clean up after all test methods are run
+	        System.out.println("Cleanup after all test methods");
+	    }
 	    
 	}
