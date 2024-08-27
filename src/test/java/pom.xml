@@ -75,10 +75,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-                    <!-- Update this to the correct path if you are using TestNG XML suites -->
-                    <!-- <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-                    </suiteXmlFiles> -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile> <!-- Reference to the testng.xml at the root directory -->
+                    </suiteXmlFiles>
                     <systemPropertyVariables>
                         <webdriver.chrome.driver>C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver.exe</webdriver.chrome.driver>
                     </systemPropertyVariables>
